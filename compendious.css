@@ -1,0 +1,118 @@
+/*! Compendious */
+
+[class|="c1"],
+[class|="c2"],
+[class|="c3"],
+[class|="c4"],
+[class|="c5"],
+[class|="c6"] {
+	display: block;
+	float: left;
+	margin-bottom: 2%;
+	margin-right: -100%;
+}
+
+/* Widths */
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6 {
+	width: 15%;
+}
+
+.c1-c2,
+.c2-c3,
+.c3-c4,
+.c4-c5,
+.c5-c6 {
+	width: 32%;
+}
+
+.c1-c3,
+.c2-c4,
+.c3-c5,
+.c4-c6 {
+	width: 49%;
+}
+
+.c1-c4,
+.c2-c5,
+.c3-c6 {
+	width: 66%;
+}
+
+.c1-c5,
+.c2-c6 {
+	width: 83%;
+}
+
+.c1-c6 {
+	width: 100%;
+}
+
+/* Offsets */
+
+[class|="c2"] {
+	margin-left: 17%;
+}
+
+[class|="c3"] {
+	margin-left: 34%;
+}
+
+[class|="c4"] {
+	margin-left: 51%;
+}
+
+[class|="c5"] {
+	margin-left: 68%;
+}
+
+[class|="c6"] {
+	margin-left: 85%;
+}
+
+/* Clearing */
+
+[class$="c1"] + [class|="c1"],
+[class$="c2"] + [class|="c1"],
+[class$="c2"] + [class|="c2"],
+[class$="c3"] + [class|="c1"],
+[class$="c3"] + [class|="c2"],
+[class$="c3"] + [class|="c3"],
+[class$="c4"] + [class|="c1"],
+[class$="c4"] + [class|="c2"],
+[class$="c4"] + [class|="c3"],
+[class$="c4"] + [class|="c4"],
+[class$="c5"] + [class|="c1"],
+[class$="c5"] + [class|="c2"],
+[class$="c5"] + [class|="c3"],
+[class$="c5"] + [class|="c4"],
+[class$="c5"] + [class|="c5"],
+[class$="c6"] + [class|="c1"],
+[class$="c6"] + [class|="c2"],
+[class$="c6"] + [class|="c3"],
+[class$="c6"] + [class|="c4"],
+[class$="c6"] + [class|="c5"],
+[class$="c6"] + [class|="c6"] {
+	clear: left;
+}
+
+/* Clearfix */
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+} 
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1; /* IE 6/7 (trigger hasLayout) */
+}
