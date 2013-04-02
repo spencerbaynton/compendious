@@ -105,14 +105,14 @@
 
 .cf:before,
 .cf:after {
-    content: "";
-    display: table;
+	content: "";
+	display: table;
 } 
 
 .cf:after {
-    clear: both;
+	clear: both;
 }
 
 .cf {
-    zoom: 1; /* IE 6/7 (trigger hasLayout) */
+	zoom: 1; /* IE 6/7 (trigger hasLayout) */
 }

@@ -21,6 +21,20 @@ A comprehensive but concise fluid 6 column grid system.
 </div>
 ```
 
+## Clearing and Offsets
+
+Both are handled _automagically_.
+
+```html
+<div class="cf">
+	<div class="c2">15%</div>
+	<div class="c5">15%</div>
+	<div class="c3-c4">32%</div>
+	<div class="c2">15%</div>
+	<div class="c5">15%</div>
+</div>
+```
+
 ## Compatibility
 
 The `[attr|="name"]`, `[attr$="name"]`, and adjacent sibling (`+`) selectors are not supported by Internet Explorer 6.
