@@ -1,6 +1,8 @@
 # Compendious
 
-A comprehensive but concise fluid 6 column grid system.
+A comprehensive, but concise, fluid 6 column grid system.
+
+Each column's class name is prefixed with `c`, for _column_, but really because CSS class names cannot begin with a number. The digit that follows indicates which column to place the element in, not the span. To create a span from one column to another simply use a class name containing the start column and the end column sperated by a dash (`-`).
 
 ## Example
 
@@ -23,7 +25,7 @@ A comprehensive but concise fluid 6 column grid system.
 
 ## Clearing and Offsets
 
-Both are handled _automagically_.
+By using this class naming scheme, both clearing and offsets can be handled _automagically_.
 
 ```html
 <div class="cf">
@@ -42,5 +44,5 @@ The `[attr|="name"]`, `[attr$="name"]`, and adjacent sibling (`+`) selectors are
 ## Inspiration
 
 * [A better Photoshop grid for responsive web design](//elliotjaystocks.com/blog/a-better-photoshop-grid-for-responsive-web-design) —Elliot Jay Stocks
-* [Gridset](//gridsetapp.com) Offsets and Clearing
-* [Negative Grid](//chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta) Negative Margin
+* [Gridset](//gridsetapp.com) (offsets and clearing)
+* [Negative Grid](//chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta) (negative margin)
