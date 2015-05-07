@@ -2,7 +2,7 @@
 
 A comprehensive, but concise, fluid 6 column grid system.
 
-Each column's class name is prefixed with `c`, for _column_, but really because CSS class names cannot begin with a number. The digit that follows indicates which column to place the element in, not the span. To create a span from one column to another simply use a class name containing the start column and the end column sperated by a dash (`-`).
+Each column's class name is prefixed with `c`, for _column_, but really because CSS class names cannot begin with a number. The digit that follows indicates which column to place the element in, _not_ the span. To create a span from one column to another simply use a class name containing the start column and the end column separated by a dash (`-`).
 
 ## Example
 
@@ -43,6 +43,6 @@ The `[attr|="name"]`, `[attr$="name"]`, and adjacent sibling (`+`) selectors are
 
 ## Inspiration
 
-* [A better Photoshop grid for responsive web design](//elliotjaystocks.com/blog/a-better-photoshop-grid-for-responsive-web-design) —Elliot Jay Stocks
-* [Gridset](//gridsetapp.com) (offsets and clearing)
-* [Negative Grid](//chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta) (negative margin)
+* [A better Photoshop grid for responsive web design](http://elliotjaystocks.com/blog/a-better-photoshop-grid-for-responsive-web-design) —Elliot Jay Stocks
+* [Gridset](http://gridsetapp.com) (offsets and clearing)
+* [Negative Grid](http://chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta) (negative margin)
